@@ -14,85 +14,15 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 23
-    width: 1280
-    height: 712
-  m_ShowMode: 0
-  m_Title: 
-  m_RootView: {fileID: 4}
-  m_MinSize: {x: 360, y: 412}
-  m_MaxSize: {x: 4000, y: 4022}
---- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
-    x: -113
-    y: 45
+    y: 44
     width: 1280
     height: 691
   m_ShowMode: 4
   m_Title: 
-  m_RootView: {fileID: 5}
-  m_MinSize: {x: 950, y: 471}
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 950, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1280
-    height: 712
-  m_MinSize: {x: 360, y: 390}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
-  m_Panes:
-  - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 3}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1280
-    height: 712
-  m_MinSize: {x: 360, y: 412}
-  m_MaxSize: {x: 4000, y: 4022}
-  vertical: 0
-  controlID: 183
---- !u!114 &5
+--- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -104,18 +34,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 6}
-  - {fileID: 8}
-  - {fileID: 7}
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1280
     height: 691
-  m_MinSize: {x: 950, y: 471}
+  m_MinSize: {x: 950, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &6
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -136,7 +66,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &7
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -156,7 +86,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &8
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -168,19 +98,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 6}
   - {fileID: 9}
-  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1280
     height: 641
-  m_MinSize: {x: 738, y: 421}
-  m_MaxSize: {x: 22008, y: 14021}
+  m_MinSize: {x: 742, y: 442}
+  m_MaxSize: {x: 22012, y: 14042}
   vertical: 0
-  controlID: 35
---- !u!114 &9
+  controlID: 147
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -192,19 +122,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 10}
-  - {fileID: 11}
+  - {fileID: 7}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 565
     height: 641
-  m_MinSize: {x: 202, y: 421}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 202, y: 442}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 36
---- !u!114 &10
+  controlID: 148
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -224,12 +154,12 @@ MonoBehaviour:
     height: 247
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 20}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &11
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -247,16 +177,16 @@ MonoBehaviour:
     y: 247
     width: 565
     height: 394
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 21}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 21}
-  - {fileID: 22}
-  - {fileID: 23}
+  - {fileID: 17}
+  - {fileID: 18}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &12
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -268,19 +198,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 13}
-  - {fileID: 17}
+  - {fileID: 10}
+  - {fileID: 14}
   m_Position:
     serializedVersion: 2
     x: 565
     y: 0
     width: 715
     height: 641
-  m_MinSize: {x: 536, y: 371}
-  m_MaxSize: {x: 18006, y: 14021}
+  m_MinSize: {x: 540, y: 392}
+  m_MaxSize: {x: 18010, y: 14042}
   vertical: 1
-  controlID: 106
---- !u!114 &13
+  controlID: 218
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -292,20 +222,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 14}
-  - {fileID: 15}
-  - {fileID: 16}
+  - {fileID: 11}
+  - {fileID: 12}
+  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 715
     height: 467
-  m_MinSize: {x: 536, y: 271}
-  m_MaxSize: {x: 18006, y: 10021}
+  m_MinSize: {x: 540, y: 271}
+  m_MaxSize: {x: 18010, y: 10021}
   vertical: 0
-  controlID: 107
---- !u!114 &14
+  controlID: 219
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -323,14 +253,14 @@ MonoBehaviour:
     y: 0
     width: 204
     height: 467
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 24}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 24}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &15
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -350,14 +280,14 @@ MonoBehaviour:
     height: 467
   m_MinSize: {x: 104, y: 121}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 25}
-  - {fileID: 26}
-  - {fileID: 18}
+  - {fileID: 21}
+  - {fileID: 22}
+  - {fileID: 15}
   m_Selected: 2
   m_LastSelected: 0
---- !u!114 &16
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -377,12 +307,12 @@ MonoBehaviour:
     height: 467
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 27}
+  m_ActualView: {fileID: 23}
   m_Panes:
-  - {fileID: 27}
+  - {fileID: 23}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &17
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -400,14 +330,14 @@ MonoBehaviour:
     y: 467
     width: 715
     height: 174
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 28}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 24}
   m_Panes:
-  - {fileID: 28}
+  - {fileID: 24}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &18
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -428,12 +358,12 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 658
+    x: 771
     y: 94
     width: 275
     height: 446
-  changeTab: 1
-  activeTab: 1
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     isBusy: 0
     isPublished: 0
@@ -451,11 +381,2692 @@ MonoBehaviour:
   changesView:
     commitBody: 
     commitMessage: 
-    currentBranch: '[unknown]'
-    horizontalScroll: {x: 0, y: 0}
+    currentBranch: No commits yet on master
+    horizontalScroll: {x: 0, y: 9240}
     tree:
-      entries: []
-      entryCommitTargets: []
+      entries:
+      - Path: Assembly-CSharp.csproj
+        FullPath: /Users/azabu13/commonnunity/Assembly-CSharp.csproj
+        ProjectPath: Assembly-CSharp.csproj
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Material.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Material.meta
+        ProjectPath: Assets/Material.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Material/Floor Material.mat
+        FullPath: /Users/azabu13/commonnunity/Assets/Material/Floor Material.mat
+        ProjectPath: Assets/Material/Floor Material.mat
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Material/Floor Material.mat.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Material/Floor Material.mat.meta
+        ProjectPath: Assets/Material/Floor Material.mat.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Material/barrier material.mat
+        FullPath: /Users/azabu13/commonnunity/Assets/Material/barrier material.mat
+        ProjectPath: Assets/Material/barrier material.mat
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Material/barrier material.mat.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Material/barrier material.mat.meta
+        ProjectPath: Assets/Material/barrier material.mat.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Material/goal material.mat
+        FullPath: /Users/azabu13/commonnunity/Assets/Material/goal material.mat
+        ProjectPath: Assets/Material/goal material.mat
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Material/goal material.mat.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Material/goal material.mat.meta
+        ProjectPath: Assets/Material/goal material.mat.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Material/wall material.mat
+        FullPath: /Users/azabu13/commonnunity/Assets/Material/wall material.mat
+        ProjectPath: Assets/Material/wall material.mat
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Material/wall material.mat.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Material/wall material.mat.meta
+        ProjectPath: Assets/Material/wall material.mat.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins.meta
+        ProjectPath: Assets/Plugins.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub.meta
+        ProjectPath: Assets/Plugins/GitHub.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/CREDITS.txt
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/CREDITS.txt
+        ProjectPath: Assets/Plugins/GitHub/Editor/CREDITS.txt
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/CREDITS.txt.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/CREDITS.txt.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/CREDITS.txt.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/EULA.txt
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/EULA.txt
+        ProjectPath: Assets/Plugins/GitHub/Editor/EULA.txt
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/EULA.txt.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/EULA.txt.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/EULA.txt.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+        ProjectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+        ProjectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+        ProjectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/Mono.Security.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/Mono.Security.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/Mono.Security.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/Mono.Security.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/Mono.Security.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/Mono.Security.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/Octokit.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/Octokit.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/Octokit.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/Octokit.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/Octokit.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/Octokit.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/PlatformResources.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/PlatformResources.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/PlatformResources.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/PlatformResources/mac.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/PlatformResources/mac.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/PlatformResources/mac.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/PlatformResources/mac/git-lfs.zip
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/PlatformResources/mac/git-lfs.zip
+        ProjectPath: Assets/Plugins/GitHub/Editor/PlatformResources/mac/git-lfs.zip
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/PlatformResources/mac/git-lfs.zip.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/PlatformResources/mac/git-lfs.zip.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/PlatformResources/mac/git-lfs.zip.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/PlatformResources/windows.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/PlatformResources/windows.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/PlatformResources/windows.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/PlatformResources/windows/git-lfs.zip
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/PlatformResources/windows/git-lfs.zip
+        ProjectPath: Assets/Plugins/GitHub/Editor/PlatformResources/windows/git-lfs.zip
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/PlatformResources/windows/git-lfs.zip.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/PlatformResources/windows/git-lfs.zip.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/PlatformResources/windows/git-lfs.zip.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/PlatformResources/windows/git.zip
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/PlatformResources/windows/git.zip
+        ProjectPath: Assets/Plugins/GitHub/Editor/PlatformResources/windows/git.zip
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/PlatformResources/windows/git.zip.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/PlatformResources/windows/git.zip.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/PlatformResources/windows/git.zip.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/Rackspace.Threading.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/Rackspace.Threading.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/Rackspace.Threading.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/Rackspace.Threading.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/Rackspace.Threading.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/Rackspace.Threading.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/System.Net.Http.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/System.Net.Http.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/System.Net.Http.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/System.Net.Http.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/System.Net.Http.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/System.Net.Http.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/System.Threading.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/System.Threading.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/libsfw.bundle
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/libsfw.bundle
+        ProjectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/libsfw.so
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/libsfw.so
+        ProjectPath: Assets/Plugins/GitHub/Editor/libsfw.so
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/sfw.net.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/sfw.net.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/x64.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/x64.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/x64.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/x86.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/x86.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/x86.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+        ProjectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+        ProjectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scenes.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Scenes.meta
+        ProjectPath: Assets/Scenes.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scenes/game.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Scenes/game.meta
+        ProjectPath: Assets/Scenes/game.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scenes/game.unity
+        FullPath: /Users/azabu13/commonnunity/Assets/Scenes/game.unity
+        ProjectPath: Assets/Scenes/game.unity
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scenes/game.unity.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Scenes/game.unity.meta
+        ProjectPath: Assets/Scenes/game.unity.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scenes/game/LightingData.asset
+        FullPath: /Users/azabu13/commonnunity/Assets/Scenes/game/LightingData.asset
+        ProjectPath: Assets/Scenes/game/LightingData.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scenes/game/LightingData.asset.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Scenes/game/LightingData.asset.meta
+        ProjectPath: Assets/Scenes/game/LightingData.asset.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scenes/game/ReflectionProbe-0.exr
+        FullPath: /Users/azabu13/commonnunity/Assets/Scenes/game/ReflectionProbe-0.exr
+        ProjectPath: Assets/Scenes/game/ReflectionProbe-0.exr
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scenes/game/ReflectionProbe-0.exr.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Scenes/game/ReflectionProbe-0.exr.meta
+        ProjectPath: Assets/Scenes/game/ReflectionProbe-0.exr.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scripts.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Scripts.meta
+        ProjectPath: Assets/Scripts.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scripts/BarrierController.cs
+        FullPath: /Users/azabu13/commonnunity/Assets/Scripts/BarrierController.cs
+        ProjectPath: Assets/Scripts/BarrierController.cs
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scripts/BarrierController.cs.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Scripts/BarrierController.cs.meta
+        ProjectPath: Assets/Scripts/BarrierController.cs.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scripts/FollowPlayer.cs
+        FullPath: /Users/azabu13/commonnunity/Assets/Scripts/FollowPlayer.cs
+        ProjectPath: Assets/Scripts/FollowPlayer.cs
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scripts/FollowPlayer.cs.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Scripts/FollowPlayer.cs.meta
+        ProjectPath: Assets/Scripts/FollowPlayer.cs.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scripts/GoalController.cs
+        FullPath: /Users/azabu13/commonnunity/Assets/Scripts/GoalController.cs
+        ProjectPath: Assets/Scripts/GoalController.cs
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scripts/GoalController.cs.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Scripts/GoalController.cs.meta
+        ProjectPath: Assets/Scripts/GoalController.cs.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scripts/PlayerController.cs
+        FullPath: /Users/azabu13/commonnunity/Assets/Scripts/PlayerController.cs
+        ProjectPath: Assets/Scripts/PlayerController.cs
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scripts/PlayerController.cs.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Scripts/PlayerController.cs.meta
+        ProjectPath: Assets/Scripts/PlayerController.cs.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scripts/UIController.cs
+        FullPath: /Users/azabu13/commonnunity/Assets/Scripts/UIController.cs
+        ProjectPath: Assets/Scripts/UIController.cs
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scripts/UIController.cs.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Scripts/UIController.cs.meta
+        ProjectPath: Assets/Scripts/UIController.cs.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scripts/UIController2.cs
+        FullPath: /Users/azabu13/commonnunity/Assets/Scripts/UIController2.cs
+        ProjectPath: Assets/Scripts/UIController2.cs
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Assets/Scripts/UIController2.cs.meta
+        FullPath: /Users/azabu13/commonnunity/Assets/Scripts/UIController2.cs.meta
+        ProjectPath: Assets/Scripts/UIController2.cs.meta
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/AnnotationManager
+        FullPath: /Users/azabu13/commonnunity/Library/AnnotationManager
+        ProjectPath: Library/AnnotationManager
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/AssetImportState
+        FullPath: /Users/azabu13/commonnunity/Library/AssetImportState
+        ProjectPath: Library/AssetImportState
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/BuildPlayer.prefs
+        FullPath: /Users/azabu13/commonnunity/Library/BuildPlayer.prefs
+        ProjectPath: Library/BuildPlayer.prefs
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/BuildSettings.asset
+        FullPath: /Users/azabu13/commonnunity/Library/BuildSettings.asset
+        ProjectPath: Library/BuildSettings.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/CurrentLayout.dwlt
+        FullPath: /Users/azabu13/commonnunity/Library/CurrentLayout.dwlt
+        ProjectPath: Library/CurrentLayout.dwlt
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/CurrentMaximizeLayout.dwlt
+        FullPath: /Users/azabu13/commonnunity/Library/CurrentMaximizeLayout.dwlt
+        ProjectPath: Library/CurrentMaximizeLayout.dwlt
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/EditorInstance.json
+        FullPath: /Users/azabu13/commonnunity/Library/EditorInstance.json
+        ProjectPath: Library/EditorInstance.json
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/EditorUserBuildSettings.asset
+        FullPath: /Users/azabu13/commonnunity/Library/EditorUserBuildSettings.asset
+        ProjectPath: Library/EditorUserBuildSettings.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/EditorUserSettings.asset
+        FullPath: /Users/azabu13/commonnunity/Library/EditorUserSettings.asset
+        ProjectPath: Library/EditorUserSettings.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/InspectorExpandedItems.asset
+        FullPath: /Users/azabu13/commonnunity/Library/InspectorExpandedItems.asset
+        ProjectPath: Library/InspectorExpandedItems.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/LastSceneManagerSetup.txt
+        FullPath: /Users/azabu13/commonnunity/Library/LastSceneManagerSetup.txt
+        ProjectPath: Library/LastSceneManagerSetup.txt
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/LibraryFormatVersion.txt
+        FullPath: /Users/azabu13/commonnunity/Library/LibraryFormatVersion.txt
+        ProjectPath: Library/LibraryFormatVersion.txt
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/MonoManager.asset
+        FullPath: /Users/azabu13/commonnunity/Library/MonoManager.asset
+        ProjectPath: Library/MonoManager.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ProjectSettings.asset
+        FullPath: /Users/azabu13/commonnunity/Library/ProjectSettings.asset
+        ProjectPath: Library/ProjectSettings.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ScriptAssemblies/Assembly-CSharp.dll
+        FullPath: /Users/azabu13/commonnunity/Library/ScriptAssemblies/Assembly-CSharp.dll
+        ProjectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+        FullPath: /Users/azabu13/commonnunity/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+        ProjectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+        FullPath: /Users/azabu13/commonnunity/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+        ProjectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ScriptMapper
+        FullPath: /Users/azabu13/commonnunity/Library/ScriptMapper
+        ProjectPath: Library/ScriptMapper
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache.db
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache.db
+        ProjectPath: Library/ShaderCache.db
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/2/2363712bfd5eaef7082d70444a96210c.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/2/2363712bfd5eaef7082d70444a96210c.bin
+        ProjectPath: Library/ShaderCache/2/2363712bfd5eaef7082d70444a96210c.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/2/2a494f69821bf034e9b5b33696c8c525.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/2/2a494f69821bf034e9b5b33696c8c525.bin
+        ProjectPath: Library/ShaderCache/2/2a494f69821bf034e9b5b33696c8c525.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/2/2bd597f19de1b78c3cdfad54681f59cb.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/2/2bd597f19de1b78c3cdfad54681f59cb.bin
+        ProjectPath: Library/ShaderCache/2/2bd597f19de1b78c3cdfad54681f59cb.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/3/3fd92b679f2abe7b9caa01eb07818074.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/3/3fd92b679f2abe7b9caa01eb07818074.bin
+        ProjectPath: Library/ShaderCache/3/3fd92b679f2abe7b9caa01eb07818074.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/4/42301ec9c3db75189eb9f8ae085d940c.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/4/42301ec9c3db75189eb9f8ae085d940c.bin
+        ProjectPath: Library/ShaderCache/4/42301ec9c3db75189eb9f8ae085d940c.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/4/49208fd90cb7251b342cfdf165590a25.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/4/49208fd90cb7251b342cfdf165590a25.bin
+        ProjectPath: Library/ShaderCache/4/49208fd90cb7251b342cfdf165590a25.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/5/519778d7ceadd237043ff5ee28a10cfe.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/5/519778d7ceadd237043ff5ee28a10cfe.bin
+        ProjectPath: Library/ShaderCache/5/519778d7ceadd237043ff5ee28a10cfe.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/5/528296d3b234247c1019c095c360af17.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/5/528296d3b234247c1019c095c360af17.bin
+        ProjectPath: Library/ShaderCache/5/528296d3b234247c1019c095c360af17.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/5/534db3a228d2255746c03e62da458337.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/5/534db3a228d2255746c03e62da458337.bin
+        ProjectPath: Library/ShaderCache/5/534db3a228d2255746c03e62da458337.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/5/5e2164a7265fe7f7b90d613803212b1a.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/5/5e2164a7265fe7f7b90d613803212b1a.bin
+        ProjectPath: Library/ShaderCache/5/5e2164a7265fe7f7b90d613803212b1a.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/6/60099c37d5b2a0a2a3f396223f73c92e.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/6/60099c37d5b2a0a2a3f396223f73c92e.bin
+        ProjectPath: Library/ShaderCache/6/60099c37d5b2a0a2a3f396223f73c92e.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/6/636357e4eb7f15772a9344e72d40cc17.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/6/636357e4eb7f15772a9344e72d40cc17.bin
+        ProjectPath: Library/ShaderCache/6/636357e4eb7f15772a9344e72d40cc17.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/6/67ada9c47225da34b45ab38c314504cf.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/6/67ada9c47225da34b45ab38c314504cf.bin
+        ProjectPath: Library/ShaderCache/6/67ada9c47225da34b45ab38c314504cf.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/7/75555f587097d856c33e899262279e74.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/7/75555f587097d856c33e899262279e74.bin
+        ProjectPath: Library/ShaderCache/7/75555f587097d856c33e899262279e74.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/7/7a6c093a41ffa634719ddff5cc2785ef.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/7/7a6c093a41ffa634719ddff5cc2785ef.bin
+        ProjectPath: Library/ShaderCache/7/7a6c093a41ffa634719ddff5cc2785ef.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/8/8e4476e3a54e2b3acc93573b8cd8a6df.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/8/8e4476e3a54e2b3acc93573b8cd8a6df.bin
+        ProjectPath: Library/ShaderCache/8/8e4476e3a54e2b3acc93573b8cd8a6df.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/9/931a8ba33c8cc8df9122c0f87954c867.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/9/931a8ba33c8cc8df9122c0f87954c867.bin
+        ProjectPath: Library/ShaderCache/9/931a8ba33c8cc8df9122c0f87954c867.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/9/9c0ba92381650ad48b0e07a9f405804f.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/9/9c0ba92381650ad48b0e07a9f405804f.bin
+        ProjectPath: Library/ShaderCache/9/9c0ba92381650ad48b0e07a9f405804f.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/a/a71611192af81aab5685f0306477bc26.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/a/a71611192af81aab5685f0306477bc26.bin
+        ProjectPath: Library/ShaderCache/a/a71611192af81aab5685f0306477bc26.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/a/a7ea5b10041acd3081d26d65dc79d92a.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/a/a7ea5b10041acd3081d26d65dc79d92a.bin
+        ProjectPath: Library/ShaderCache/a/a7ea5b10041acd3081d26d65dc79d92a.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/a/a82ab4f3a9297ffb3aec3af8601dac42.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/a/a82ab4f3a9297ffb3aec3af8601dac42.bin
+        ProjectPath: Library/ShaderCache/a/a82ab4f3a9297ffb3aec3af8601dac42.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/b/bfc2af164ef4f7746d1792f836639698.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/b/bfc2af164ef4f7746d1792f836639698.bin
+        ProjectPath: Library/ShaderCache/b/bfc2af164ef4f7746d1792f836639698.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/c/c7e014bd9e1d230e3652172d6e3386fc.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/c/c7e014bd9e1d230e3652172d6e3386fc.bin
+        ProjectPath: Library/ShaderCache/c/c7e014bd9e1d230e3652172d6e3386fc.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/c/c7f4e999d9f7743dd232a41834de8ca2.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/c/c7f4e999d9f7743dd232a41834de8ca2.bin
+        ProjectPath: Library/ShaderCache/c/c7f4e999d9f7743dd232a41834de8ca2.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/c/cd042f220e9c8f8e606b88d91d67eeac.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/c/cd042f220e9c8f8e606b88d91d67eeac.bin
+        ProjectPath: Library/ShaderCache/c/cd042f220e9c8f8e606b88d91d67eeac.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/d/d00fc61fc63008177640585be511b00b.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/d/d00fc61fc63008177640585be511b00b.bin
+        ProjectPath: Library/ShaderCache/d/d00fc61fc63008177640585be511b00b.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/d/d1f20a48b3cf023518cc87bfc37543e6.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/d/d1f20a48b3cf023518cc87bfc37543e6.bin
+        ProjectPath: Library/ShaderCache/d/d1f20a48b3cf023518cc87bfc37543e6.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/d/db5ca6fa8b42363b98e63d7ebcf95593.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/d/db5ca6fa8b42363b98e63d7ebcf95593.bin
+        ProjectPath: Library/ShaderCache/d/db5ca6fa8b42363b98e63d7ebcf95593.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/e/e3a1ad317a30a8df219e5e158901bb5a.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/e/e3a1ad317a30a8df219e5e158901bb5a.bin
+        ProjectPath: Library/ShaderCache/e/e3a1ad317a30a8df219e5e158901bb5a.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/ShaderCache/e/e771eecbe60c6449fcdc68fd272376da.bin
+        FullPath: /Users/azabu13/commonnunity/Library/ShaderCache/e/e771eecbe60c6449fcdc68fd272376da.bin
+        ProjectPath: Library/ShaderCache/e/e771eecbe60c6449fcdc68fd272376da.bin
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/SpriteAtlasDatabase.asset
+        FullPath: /Users/azabu13/commonnunity/Library/SpriteAtlasDatabase.asset
+        ProjectPath: Library/SpriteAtlasDatabase.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/assetDatabase3
+        FullPath: /Users/azabu13/commonnunity/Library/assetDatabase3
+        ProjectPath: Library/assetDatabase3
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/expandedItems
+        FullPath: /Users/azabu13/commonnunity/Library/expandedItems
+        ProjectPath: Library/expandedItems
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/gfu/cache/gitlog.yaml
+        FullPath: /Users/azabu13/commonnunity/Library/gfu/cache/gitlog.yaml
+        ProjectPath: Library/gfu/cache/gitlog.yaml
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000001000000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000001000000000000000
+        ProjectPath: Library/metadata/00/00000000000000001000000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000001000000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000001000000000000000.info
+        ProjectPath: Library/metadata/00/00000000000000001000000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000002000000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000002000000000000000
+        ProjectPath: Library/metadata/00/00000000000000002000000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000002000000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000002000000000000000.info
+        ProjectPath: Library/metadata/00/00000000000000002000000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000003000000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000003000000000000000
+        ProjectPath: Library/metadata/00/00000000000000003000000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000003000000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000003000000000000000.info
+        ProjectPath: Library/metadata/00/00000000000000003000000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000004000000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000004000000000000000
+        ProjectPath: Library/metadata/00/00000000000000004000000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000004000000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000004000000000000000.info
+        ProjectPath: Library/metadata/00/00000000000000004000000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000004100000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000004100000000000000
+        ProjectPath: Library/metadata/00/00000000000000004100000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000004100000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000004100000000000000.info
+        ProjectPath: Library/metadata/00/00000000000000004100000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000005000000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000005000000000000000
+        ProjectPath: Library/metadata/00/00000000000000005000000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000005000000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000005000000000000000.info
+        ProjectPath: Library/metadata/00/00000000000000005000000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000005100000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000005100000000000000
+        ProjectPath: Library/metadata/00/00000000000000005100000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000005100000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000005100000000000000.info
+        ProjectPath: Library/metadata/00/00000000000000005100000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000006000000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000006000000000000000
+        ProjectPath: Library/metadata/00/00000000000000006000000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000006000000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000006000000000000000.info
+        ProjectPath: Library/metadata/00/00000000000000006000000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000006100000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000006100000000000000
+        ProjectPath: Library/metadata/00/00000000000000006100000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000006100000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000006100000000000000.info
+        ProjectPath: Library/metadata/00/00000000000000006100000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000007000000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000007000000000000000
+        ProjectPath: Library/metadata/00/00000000000000007000000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000007000000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000007000000000000000.info
+        ProjectPath: Library/metadata/00/00000000000000007000000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000007100000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000007100000000000000
+        ProjectPath: Library/metadata/00/00000000000000007100000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000007100000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000007100000000000000.info
+        ProjectPath: Library/metadata/00/00000000000000007100000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000008000000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000008000000000000000
+        ProjectPath: Library/metadata/00/00000000000000008000000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000008000000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000008000000000000000.info
+        ProjectPath: Library/metadata/00/00000000000000008000000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000009000000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000009000000000000000
+        ProjectPath: Library/metadata/00/00000000000000009000000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/00000000000000009000000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/00000000000000009000000000000000.info
+        ProjectPath: Library/metadata/00/00000000000000009000000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/0000000000000000a000000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/0000000000000000a000000000000000
+        ProjectPath: Library/metadata/00/0000000000000000a000000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/0000000000000000a000000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/0000000000000000a000000000000000.info
+        ProjectPath: Library/metadata/00/0000000000000000a000000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/0000000000000000a100000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/0000000000000000a100000000000000
+        ProjectPath: Library/metadata/00/0000000000000000a100000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/0000000000000000a100000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/0000000000000000a100000000000000.info
+        ProjectPath: Library/metadata/00/0000000000000000a100000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/0000000000000000b000000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/0000000000000000b000000000000000
+        ProjectPath: Library/metadata/00/0000000000000000b000000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/0000000000000000b000000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/0000000000000000b000000000000000.info
+        ProjectPath: Library/metadata/00/0000000000000000b000000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/0000000000000000c000000000000000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/0000000000000000c000000000000000
+        ProjectPath: Library/metadata/00/0000000000000000c000000000000000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/00/0000000000000000c000000000000000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/00/0000000000000000c000000000000000.info
+        ProjectPath: Library/metadata/00/0000000000000000c000000000000000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+        ProjectPath: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
+        ProjectPath: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/06/06130565b0cc4473f97d070dbc0e72c4
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/06/06130565b0cc4473f97d070dbc0e72c4
+        ProjectPath: Library/metadata/06/06130565b0cc4473f97d070dbc0e72c4
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/06/06130565b0cc4473f97d070dbc0e72c4.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/06/06130565b0cc4473f97d070dbc0e72c4.info
+        ProjectPath: Library/metadata/06/06130565b0cc4473f97d070dbc0e72c4.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
+        ProjectPath: Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/0d/0d3bb855445e36e479c85976fc88383a.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/0d/0d3bb855445e36e479c85976fc88383a.info
+        ProjectPath: Library/metadata/0d/0d3bb855445e36e479c85976fc88383a.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/11/11043fc3a881495409d0828a9dcb372e
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/11/11043fc3a881495409d0828a9dcb372e
+        ProjectPath: Library/metadata/11/11043fc3a881495409d0828a9dcb372e
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/11/11043fc3a881495409d0828a9dcb372e.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/11/11043fc3a881495409d0828a9dcb372e.info
+        ProjectPath: Library/metadata/11/11043fc3a881495409d0828a9dcb372e.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/12/12df2c0c5c06e4804bc825af955292bb
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/12/12df2c0c5c06e4804bc825af955292bb
+        ProjectPath: Library/metadata/12/12df2c0c5c06e4804bc825af955292bb
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/12/12df2c0c5c06e4804bc825af955292bb.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/12/12df2c0c5c06e4804bc825af955292bb.info
+        ProjectPath: Library/metadata/12/12df2c0c5c06e4804bc825af955292bb.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+        ProjectPath: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333.info
+        ProjectPath: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/13/136dc24f151211d438acee17aff4e934
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/13/136dc24f151211d438acee17aff4e934
+        ProjectPath: Library/metadata/13/136dc24f151211d438acee17aff4e934
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/13/136dc24f151211d438acee17aff4e934.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/13/136dc24f151211d438acee17aff4e934.info
+        ProjectPath: Library/metadata/13/136dc24f151211d438acee17aff4e934.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/14/14be3e68ba91141db80e30eddb17b442
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/14/14be3e68ba91141db80e30eddb17b442
+        ProjectPath: Library/metadata/14/14be3e68ba91141db80e30eddb17b442
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/14/14be3e68ba91141db80e30eddb17b442.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/14/14be3e68ba91141db80e30eddb17b442.info
+        ProjectPath: Library/metadata/14/14be3e68ba91141db80e30eddb17b442.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/15/151a1d946b98deb4b98445400983ba92
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/15/151a1d946b98deb4b98445400983ba92
+        ProjectPath: Library/metadata/15/151a1d946b98deb4b98445400983ba92
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
+        ProjectPath: Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
+        ProjectPath: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
+        ProjectPath: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/18/18eb894d53ff491408b69602eb959000
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/18/18eb894d53ff491408b69602eb959000
+        ProjectPath: Library/metadata/18/18eb894d53ff491408b69602eb959000
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/18/18eb894d53ff491408b69602eb959000.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/18/18eb894d53ff491408b69602eb959000.info
+        ProjectPath: Library/metadata/18/18eb894d53ff491408b69602eb959000.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/1b/1bf89c9fbca28724a8d8fbcf427c47f4
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/1b/1bf89c9fbca28724a8d8fbcf427c47f4
+        ProjectPath: Library/metadata/1b/1bf89c9fbca28724a8d8fbcf427c47f4
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/1b/1bf89c9fbca28724a8d8fbcf427c47f4.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/1b/1bf89c9fbca28724a8d8fbcf427c47f4.info
+        ProjectPath: Library/metadata/1b/1bf89c9fbca28724a8d8fbcf427c47f4.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+        ProjectPath: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77.info
+        ProjectPath: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
+        ProjectPath: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
+        ProjectPath: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+        ProjectPath: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1.info
+        ProjectPath: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/23/23c8bee69b591054094d32918f98facd
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/23/23c8bee69b591054094d32918f98facd
+        ProjectPath: Library/metadata/23/23c8bee69b591054094d32918f98facd
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/23/23c8bee69b591054094d32918f98facd.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/23/23c8bee69b591054094d32918f98facd.info
+        ProjectPath: Library/metadata/23/23c8bee69b591054094d32918f98facd.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/26/2682a692a2be7e14e901a738c7806da0
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/26/2682a692a2be7e14e901a738c7806da0
+        ProjectPath: Library/metadata/26/2682a692a2be7e14e901a738c7806da0
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/26/2682a692a2be7e14e901a738c7806da0.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/26/2682a692a2be7e14e901a738c7806da0.info
+        ProjectPath: Library/metadata/26/2682a692a2be7e14e901a738c7806da0.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/28/280eb2acd7fc747f8ada975fd16458be
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/28/280eb2acd7fc747f8ada975fd16458be
+        ProjectPath: Library/metadata/28/280eb2acd7fc747f8ada975fd16458be
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/28/280eb2acd7fc747f8ada975fd16458be.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/28/280eb2acd7fc747f8ada975fd16458be.info
+        ProjectPath: Library/metadata/28/280eb2acd7fc747f8ada975fd16458be.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/2a/2abf0bebee8cc4c8ab468a581c1783c2
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/2a/2abf0bebee8cc4c8ab468a581c1783c2
+        ProjectPath: Library/metadata/2a/2abf0bebee8cc4c8ab468a581c1783c2
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/2a/2abf0bebee8cc4c8ab468a581c1783c2.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/2a/2abf0bebee8cc4c8ab468a581c1783c2.info
+        ProjectPath: Library/metadata/2a/2abf0bebee8cc4c8ab468a581c1783c2.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/2d/2d12c8a1dbd7d459cbacee00eaaf0155
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/2d/2d12c8a1dbd7d459cbacee00eaaf0155
+        ProjectPath: Library/metadata/2d/2d12c8a1dbd7d459cbacee00eaaf0155
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/2d/2d12c8a1dbd7d459cbacee00eaaf0155.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/2d/2d12c8a1dbd7d459cbacee00eaaf0155.info
+        ProjectPath: Library/metadata/2d/2d12c8a1dbd7d459cbacee00eaaf0155.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+        ProjectPath: Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/32/32188fd89022c154c81befa2f0e00be0.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/32/32188fd89022c154c81befa2f0e00be0.info
+        ProjectPath: Library/metadata/32/32188fd89022c154c81befa2f0e00be0.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
+        ProjectPath: Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9.info
+        ProjectPath: Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/34/34c483bc5ff7f453fadff0e5bea9ad0d
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/34/34c483bc5ff7f453fadff0e5bea9ad0d
+        ProjectPath: Library/metadata/34/34c483bc5ff7f453fadff0e5bea9ad0d
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/34/34c483bc5ff7f453fadff0e5bea9ad0d.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/34/34c483bc5ff7f453fadff0e5bea9ad0d.info
+        ProjectPath: Library/metadata/34/34c483bc5ff7f453fadff0e5bea9ad0d.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/35/35ab8f1b40b60434594c87c65efe2dbe
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/35/35ab8f1b40b60434594c87c65efe2dbe
+        ProjectPath: Library/metadata/35/35ab8f1b40b60434594c87c65efe2dbe
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/35/35ab8f1b40b60434594c87c65efe2dbe.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/35/35ab8f1b40b60434594c87c65efe2dbe.info
+        ProjectPath: Library/metadata/35/35ab8f1b40b60434594c87c65efe2dbe.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/36/3694d824e0a1d40d6ae41bfe0f0a035e
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/36/3694d824e0a1d40d6ae41bfe0f0a035e
+        ProjectPath: Library/metadata/36/3694d824e0a1d40d6ae41bfe0f0a035e
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/36/3694d824e0a1d40d6ae41bfe0f0a035e.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/36/3694d824e0a1d40d6ae41bfe0f0a035e.info
+        ProjectPath: Library/metadata/36/3694d824e0a1d40d6ae41bfe0f0a035e.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/36/36f73b0d4842ba7448027c0215f522b1
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/36/36f73b0d4842ba7448027c0215f522b1
+        ProjectPath: Library/metadata/36/36f73b0d4842ba7448027c0215f522b1
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/36/36f73b0d4842ba7448027c0215f522b1.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/36/36f73b0d4842ba7448027c0215f522b1.info
+        ProjectPath: Library/metadata/36/36f73b0d4842ba7448027c0215f522b1.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+        ProjectPath: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc.info
+        ProjectPath: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/3a/3a3a710179307448c92c2873fce8ddd6
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/3a/3a3a710179307448c92c2873fce8ddd6
+        ProjectPath: Library/metadata/3a/3a3a710179307448c92c2873fce8ddd6
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/3a/3a3a710179307448c92c2873fce8ddd6.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/3a/3a3a710179307448c92c2873fce8ddd6.info
+        ProjectPath: Library/metadata/3a/3a3a710179307448c92c2873fce8ddd6.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/40/405b9b51bb344a128608d968297df79c
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/40/405b9b51bb344a128608d968297df79c
+        ProjectPath: Library/metadata/40/405b9b51bb344a128608d968297df79c
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/40/405b9b51bb344a128608d968297df79c.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/40/405b9b51bb344a128608d968297df79c.info
+        ProjectPath: Library/metadata/40/405b9b51bb344a128608d968297df79c.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+        ProjectPath: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/41/4113173d5e95493ab8765d7b08371de4.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/41/4113173d5e95493ab8765d7b08371de4.info
+        ProjectPath: Library/metadata/41/4113173d5e95493ab8765d7b08371de4.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/42/4273ceeab740349448d0c750d445e468
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/42/4273ceeab740349448d0c750d445e468
+        ProjectPath: Library/metadata/42/4273ceeab740349448d0c750d445e468
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/42/4273ceeab740349448d0c750d445e468.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/42/4273ceeab740349448d0c750d445e468.info
+        ProjectPath: Library/metadata/42/4273ceeab740349448d0c750d445e468.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
+        ProjectPath: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
+        ProjectPath: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+        ProjectPath: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8.info
+        ProjectPath: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+        ProjectPath: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f.info
+        ProjectPath: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+        ProjectPath: Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/51/517af1b5b81b93b43b9745d58f017562.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/51/517af1b5b81b93b43b9745d58f017562.info
+        ProjectPath: Library/metadata/51/517af1b5b81b93b43b9745d58f017562.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+        ProjectPath: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1.info
+        ProjectPath: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+        ProjectPath: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc.info
+        ProjectPath: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/59/598f7cc167e65424284e573aff0f1294
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/59/598f7cc167e65424284e573aff0f1294
+        ProjectPath: Library/metadata/59/598f7cc167e65424284e573aff0f1294
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/59/598f7cc167e65424284e573aff0f1294.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/59/598f7cc167e65424284e573aff0f1294.info
+        ProjectPath: Library/metadata/59/598f7cc167e65424284e573aff0f1294.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+        ProjectPath: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7.info
+        ProjectPath: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/63/636d33ae594884e7d80b569f429d245d
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/63/636d33ae594884e7d80b569f429d245d
+        ProjectPath: Library/metadata/63/636d33ae594884e7d80b569f429d245d
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
+        ProjectPath: Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/67/67a48bef50c8f384ab614ca4fd2f1d25
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/67/67a48bef50c8f384ab614ca4fd2f1d25
+        ProjectPath: Library/metadata/67/67a48bef50c8f384ab614ca4fd2f1d25
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/67/67a48bef50c8f384ab614ca4fd2f1d25.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/67/67a48bef50c8f384ab614ca4fd2f1d25.info
+        ProjectPath: Library/metadata/67/67a48bef50c8f384ab614ca4fd2f1d25.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+        ProjectPath: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5.info
+        ProjectPath: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/6a/6ab32d653114e402d8809d8cccf2d7df
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/6a/6ab32d653114e402d8809d8cccf2d7df
+        ProjectPath: Library/metadata/6a/6ab32d653114e402d8809d8cccf2d7df
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/6a/6ab32d653114e402d8809d8cccf2d7df.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/6a/6ab32d653114e402d8809d8cccf2d7df.info
+        ProjectPath: Library/metadata/6a/6ab32d653114e402d8809d8cccf2d7df.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef
+        ProjectPath: Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef.info
+        ProjectPath: Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+        ProjectPath: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/76/7668179ede524d6396c8b7d84461ea29.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/76/7668179ede524d6396c8b7d84461ea29.info
+        ProjectPath: Library/metadata/76/7668179ede524d6396c8b7d84461ea29.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
+        ProjectPath: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
+        ProjectPath: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/79/793d14dfd33f2c34cbb097a1f66991cb
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/79/793d14dfd33f2c34cbb097a1f66991cb
+        ProjectPath: Library/metadata/79/793d14dfd33f2c34cbb097a1f66991cb
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/79/793d14dfd33f2c34cbb097a1f66991cb.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/79/793d14dfd33f2c34cbb097a1f66991cb.info
+        ProjectPath: Library/metadata/79/793d14dfd33f2c34cbb097a1f66991cb.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+        ProjectPath: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f.info
+        ProjectPath: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/83/8382b2bb260241859771b69b7f377a8d
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/83/8382b2bb260241859771b69b7f377a8d
+        ProjectPath: Library/metadata/83/8382b2bb260241859771b69b7f377a8d
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/83/8382b2bb260241859771b69b7f377a8d.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/83/8382b2bb260241859771b69b7f377a8d.info
+        ProjectPath: Library/metadata/83/8382b2bb260241859771b69b7f377a8d.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+        ProjectPath: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/84/844f815391db42d49455cbf1a7bfc434.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/84/844f815391db42d49455cbf1a7bfc434.info
+        ProjectPath: Library/metadata/84/844f815391db42d49455cbf1a7bfc434.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/85/852e56802eb941638acbb491814497b0
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/85/852e56802eb941638acbb491814497b0
+        ProjectPath: Library/metadata/85/852e56802eb941638acbb491814497b0
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/85/852e56802eb941638acbb491814497b0.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/85/852e56802eb941638acbb491814497b0.info
+        ProjectPath: Library/metadata/85/852e56802eb941638acbb491814497b0.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/85/85eb0c1376d95439b8be3ec966f17b02
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/85/85eb0c1376d95439b8be3ec966f17b02
+        ProjectPath: Library/metadata/85/85eb0c1376d95439b8be3ec966f17b02
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/85/85eb0c1376d95439b8be3ec966f17b02.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/85/85eb0c1376d95439b8be3ec966f17b02.info
+        ProjectPath: Library/metadata/85/85eb0c1376d95439b8be3ec966f17b02.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
+        ProjectPath: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
+        ProjectPath: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/86/86f4de9468454445ac2f39e207fafa3a
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/86/86f4de9468454445ac2f39e207fafa3a
+        ProjectPath: Library/metadata/86/86f4de9468454445ac2f39e207fafa3a
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/86/86f4de9468454445ac2f39e207fafa3a.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/86/86f4de9468454445ac2f39e207fafa3a.info
+        ProjectPath: Library/metadata/86/86f4de9468454445ac2f39e207fafa3a.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+        ProjectPath: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba.info
+        ProjectPath: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/8b/8b6850058176042c89209ea7bae116c3
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/8b/8b6850058176042c89209ea7bae116c3
+        ProjectPath: Library/metadata/8b/8b6850058176042c89209ea7bae116c3
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/8b/8b6850058176042c89209ea7bae116c3.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/8b/8b6850058176042c89209ea7bae116c3.info
+        ProjectPath: Library/metadata/8b/8b6850058176042c89209ea7bae116c3.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44
+        ProjectPath: Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44.info
+        ProjectPath: Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
+        ProjectPath: Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe.info
+        ProjectPath: Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
+        ProjectPath: Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/90/9078b7128e594410d9b89e5b24cffd01.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/90/9078b7128e594410d9b89e5b24cffd01.info
+        ProjectPath: Library/metadata/90/9078b7128e594410d9b89e5b24cffd01.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/92/921eff880c47c4e11bc493cb48b0a710
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/92/921eff880c47c4e11bc493cb48b0a710
+        ProjectPath: Library/metadata/92/921eff880c47c4e11bc493cb48b0a710
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/92/921eff880c47c4e11bc493cb48b0a710.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/92/921eff880c47c4e11bc493cb48b0a710.info
+        ProjectPath: Library/metadata/92/921eff880c47c4e11bc493cb48b0a710.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead
+        ProjectPath: Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead.info
+        ProjectPath: Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
+        ProjectPath: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
+        ProjectPath: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
+        ProjectPath: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
+        ProjectPath: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/a1/a1ae072c6d0a6fe42881de7c5c8d66eb
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/a1/a1ae072c6d0a6fe42881de7c5c8d66eb
+        ProjectPath: Library/metadata/a1/a1ae072c6d0a6fe42881de7c5c8d66eb
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/a1/a1ae072c6d0a6fe42881de7c5c8d66eb.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/a1/a1ae072c6d0a6fe42881de7c5c8d66eb.info
+        ProjectPath: Library/metadata/a1/a1ae072c6d0a6fe42881de7c5c8d66eb.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
+        ProjectPath: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
+        ProjectPath: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/aa/aaf4698ac305a463d962a93ba956bad0
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/aa/aaf4698ac305a463d962a93ba956bad0
+        ProjectPath: Library/metadata/aa/aaf4698ac305a463d962a93ba956bad0
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/aa/aaf4698ac305a463d962a93ba956bad0.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/aa/aaf4698ac305a463d962a93ba956bad0.info
+        ProjectPath: Library/metadata/aa/aaf4698ac305a463d962a93ba956bad0.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+        ProjectPath: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f.info
+        ProjectPath: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
+        ProjectPath: Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e.info
+        ProjectPath: Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+        ProjectPath: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70.info
+        ProjectPath: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ba/ba8ad3e6c5be01e448c1f3593515049c
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ba/ba8ad3e6c5be01e448c1f3593515049c
+        ProjectPath: Library/metadata/ba/ba8ad3e6c5be01e448c1f3593515049c
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ba/ba8ad3e6c5be01e448c1f3593515049c.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ba/ba8ad3e6c5be01e448c1f3593515049c.info
+        ProjectPath: Library/metadata/ba/ba8ad3e6c5be01e448c1f3593515049c.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
+        ProjectPath: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
+        ProjectPath: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
+        ProjectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
+        ProjectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ca/ca9ef9f91d24fab40addaf0deaf60506
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ca/ca9ef9f91d24fab40addaf0deaf60506
+        ProjectPath: Library/metadata/ca/ca9ef9f91d24fab40addaf0deaf60506
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ca/ca9ef9f91d24fab40addaf0deaf60506.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ca/ca9ef9f91d24fab40addaf0deaf60506.info
+        ProjectPath: Library/metadata/ca/ca9ef9f91d24fab40addaf0deaf60506.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ca/cab1a58660fb39f4f807d2ca2c727471
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ca/cab1a58660fb39f4f807d2ca2c727471
+        ProjectPath: Library/metadata/ca/cab1a58660fb39f4f807d2ca2c727471
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ca/cab1a58660fb39f4f807d2ca2c727471.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ca/cab1a58660fb39f4f807d2ca2c727471.info
+        ProjectPath: Library/metadata/ca/cab1a58660fb39f4f807d2ca2c727471.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ca/cad92998c5182496e8b989b406d9f156
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ca/cad92998c5182496e8b989b406d9f156
+        ProjectPath: Library/metadata/ca/cad92998c5182496e8b989b406d9f156
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
+        ProjectPath: Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ce/ce871873e272f424dadcd1374ecef0e2
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ce/ce871873e272f424dadcd1374ecef0e2
+        ProjectPath: Library/metadata/ce/ce871873e272f424dadcd1374ecef0e2
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ce/ce871873e272f424dadcd1374ecef0e2.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ce/ce871873e272f424dadcd1374ecef0e2.info
+        ProjectPath: Library/metadata/ce/ce871873e272f424dadcd1374ecef0e2.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
+        ProjectPath: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
+        ProjectPath: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
+        ProjectPath: Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0.info
+        ProjectPath: Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+        ProjectPath: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb.info
+        ProjectPath: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
+        ProjectPath: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
+        ProjectPath: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+        ProjectPath: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/e1/e1007cd261c84053beb0c3537782908d.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/e1/e1007cd261c84053beb0c3537782908d.info
+        ProjectPath: Library/metadata/e1/e1007cd261c84053beb0c3537782908d.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/e8/e863d95013f7745acb7348153eab40cd
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/e8/e863d95013f7745acb7348153eab40cd
+        ProjectPath: Library/metadata/e8/e863d95013f7745acb7348153eab40cd
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/e8/e863d95013f7745acb7348153eab40cd.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/e8/e863d95013f7745acb7348153eab40cd.info
+        ProjectPath: Library/metadata/e8/e863d95013f7745acb7348153eab40cd.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395
+        ProjectPath: Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395.info
+        ProjectPath: Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/f3/f3bea872c6d92477b92699470ebae8f7
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/f3/f3bea872c6d92477b92699470ebae8f7
+        ProjectPath: Library/metadata/f3/f3bea872c6d92477b92699470ebae8f7
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/f3/f3bea872c6d92477b92699470ebae8f7.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/f3/f3bea872c6d92477b92699470ebae8f7.info
+        ProjectPath: Library/metadata/f3/f3bea872c6d92477b92699470ebae8f7.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+        ProjectPath: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8.info
+        ProjectPath: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+        ProjectPath: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/f7/f70555f144d8491a825f0804e09c671c.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/f7/f70555f144d8491a825f0804e09c671c.info
+        ProjectPath: Library/metadata/f7/f70555f144d8491a825f0804e09c671c.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+        ProjectPath: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc.info
+        ProjectPath: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
+        ProjectPath: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
+        ProjectPath: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/fc/fc1bb798ae66d44b680037d991f45a53
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/fc/fc1bb798ae66d44b680037d991f45a53
+        ProjectPath: Library/metadata/fc/fc1bb798ae66d44b680037d991f45a53
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/fc/fc1bb798ae66d44b680037d991f45a53.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/fc/fc1bb798ae66d44b680037d991f45a53.info
+        ProjectPath: Library/metadata/fc/fc1bb798ae66d44b680037d991f45a53.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
+        ProjectPath: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
+        FullPath: /Users/azabu13/commonnunity/Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
+        ProjectPath: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library/shadercompiler-UnityShaderCompiler0.log
+        FullPath: /Users/azabu13/commonnunity/Library/shadercompiler-UnityShaderCompiler0.log
+        ProjectPath: Library/shadercompiler-UnityShaderCompiler0.log
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/AudioManager.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/AudioManager.asset
+        ProjectPath: ProjectSettings/AudioManager.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/ClusterInputManager.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/ClusterInputManager.asset
+        ProjectPath: ProjectSettings/ClusterInputManager.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/DynamicsManager.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/DynamicsManager.asset
+        ProjectPath: ProjectSettings/DynamicsManager.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/EditorBuildSettings.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/EditorBuildSettings.asset
+        ProjectPath: ProjectSettings/EditorBuildSettings.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/EditorSettings.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/EditorSettings.asset
+        ProjectPath: ProjectSettings/EditorSettings.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/GraphicsSettings.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/GraphicsSettings.asset
+        ProjectPath: ProjectSettings/GraphicsSettings.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/InputManager.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/InputManager.asset
+        ProjectPath: ProjectSettings/InputManager.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/NavMeshAreas.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/NavMeshAreas.asset
+        ProjectPath: ProjectSettings/NavMeshAreas.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/NetworkManager.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/NetworkManager.asset
+        ProjectPath: ProjectSettings/NetworkManager.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/Physics2DSettings.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/Physics2DSettings.asset
+        ProjectPath: ProjectSettings/Physics2DSettings.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/ProjectSettings.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/ProjectSettings.asset
+        ProjectPath: ProjectSettings/ProjectSettings.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/ProjectVersion.txt
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/ProjectVersion.txt
+        ProjectPath: ProjectSettings/ProjectVersion.txt
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/QualitySettings.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/QualitySettings.asset
+        ProjectPath: ProjectSettings/QualitySettings.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/TagManager.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/TagManager.asset
+        ProjectPath: ProjectSettings/TagManager.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/TimeManager.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/TimeManager.asset
+        ProjectPath: ProjectSettings/TimeManager.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: ProjectSettings/UnityConnectSettings.asset
+        FullPath: /Users/azabu13/commonnunity/ProjectSettings/UnityConnectSettings.asset
+        ProjectPath: ProjectSettings/UnityConnectSettings.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Temp/UnityLockfile
+        FullPath: /Users/azabu13/commonnunity/Temp/UnityLockfile
+        ProjectPath: Temp/UnityLockfile
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: commonnunity.sln
+        FullPath: /Users/azabu13/commonnunity/commonnunity.sln
+        ProjectPath: commonnunity.sln
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: commonnunity.userprefs
+        FullPath: /Users/azabu13/commonnunity/commonnunity.userprefs
+        ProjectPath: commonnunity.userprefs
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: obj/Debug/Assembly-CSharp.csproj.FilesWrittenAbsolute.txt
+        FullPath: /Users/azabu13/commonnunity/obj/Debug/Assembly-CSharp.csproj.FilesWrittenAbsolute.txt
+        ProjectPath: obj/Debug/Assembly-CSharp.csproj.FilesWrittenAbsolute.txt
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: obj/Debug/Assembly-CSharp.dll
+        FullPath: /Users/azabu13/commonnunity/obj/Debug/Assembly-CSharp.dll
+        ProjectPath: obj/Debug/Assembly-CSharp.dll
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: obj/Debug/Assembly-CSharp.dll.mdb
+        FullPath: /Users/azabu13/commonnunity/obj/Debug/Assembly-CSharp.dll.mdb
+        ProjectPath: obj/Debug/Assembly-CSharp.dll.mdb
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      entryCommitTargets:
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
+      - All: 1
       foldedTreeEntries: []
   historyView:
     detailsScroll: {x: 0, y: 0}
@@ -469,14 +3080,14 @@ MonoBehaviour:
       entryCommitTargets: []
       foldedTreeEntries: []
     history: []
-    currentRemote: 
+    currentRemote: placeholder
     isPublished: 0
   settingsView:
     gitIgnoreRulesSelection: 0
     initDirectory: 
     lockedFiles: []
     lockScrollPos: {x: 0, y: 0}
-    repositoryRemoteName: 
+    repositoryRemoteName: origin
     repositoryRemoteUrl: 
     scroll: {x: 0, y: 0}
     lockedFileSelection: -1
@@ -509,33 +3120,7 @@ MonoBehaviour:
     m_Text: No remote configured
     m_Image: {fileID: 0}
     m_Tooltip: Url of the  remote
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
-  m_MinSize: {x: 360, y: 390}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Lighting
-    m_Image: {fileID: 8394858894532624064, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 0
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 45
-    width: 1280
-    height: 690
---- !u!114 &20
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -557,7 +3142,7 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: -113
+    x: 0
     y: 94
     width: 563
     height: 226
@@ -609,7 +3194,7 @@ MonoBehaviour:
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &21
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -631,7 +3216,7 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: -113
+    x: 0
     y: 341
     width: 563
     height: 373
@@ -685,7 +3270,7 @@ MonoBehaviour:
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
---- !u!114 &22
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -759,7 +3344,7 @@ MonoBehaviour:
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &23
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -833,7 +3418,7 @@ MonoBehaviour:
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &24
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -855,15 +3440,15 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 2
-    y: 19
+    x: 567
+    y: 94
     width: 200
     height: 446
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ae92ffff
-    m_LastClickedID: -27986
-    m_ExpandedIDs: 1afcffff00000000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 1afcffff000000001e270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -879,14 +3464,14 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 14}
+      m_ClientGUIView: {fileID: 11}
     m_SearchString: 
   m_ExpandedScenes:
   - game
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
---- !u!114 &25
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -919,7 +3504,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
---- !u!114 &26
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -950,7 +3535,7 @@ MonoBehaviour:
   - https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_RegisteredViewInstances:
   - {fileID: 0}
---- !u!114 &27
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -972,8 +3557,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 485
-    y: 19
+    x: 1050
+    y: 94
     width: 230
     height: 446
   m_SearchFilter:
@@ -1000,7 +3585,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 02ca9a3b
     m_LastClickedID: 1000000002
-    m_ExpandedIDs: 00000000f825000004260000
+    m_ExpandedIDs: 000000005c2600006426000070260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1028,23 +3613,23 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f82500000026000004260000
+    m_ExpandedIDs: 000000005c26000064260000702600007c2600008026000082260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: UIController
-      m_OriginalName: UIController
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 1634
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 16}
+      m_ClientGUIView: {fileID: 13}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1083,7 +3668,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 105
---- !u!114 &28
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1105,7 +3690,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 2
-    y: 486
+    x: 567
+    y: 561
     width: 713
     height: 153
